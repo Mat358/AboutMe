@@ -21,7 +21,7 @@ body{
 .progressBar {
     z-index: 1;
     height: 8px;
-    background: #04AA6D;
+    background: #3db8ff;
     width: 0%;
   } 
 
@@ -41,6 +41,13 @@ body{
 
   #albionFishBot{
     background-image: url('media/img/bg3.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #osint{
+    background-image: url('media/img/bg4.png');
     background-size: cover;
     width: 100%;
     height: 100vh;
